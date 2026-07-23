@@ -1,0 +1,1 @@
+{"$schema": "https://openapi.vercel.sh/vercel.json", "version": 2, "buildCommand": "", "outputDirectory": "demo", "installCommand": "", "framework": null, "rewrites": [{"source": "/(.*)", "destination": "/demo/$1"}], "functions": {"demo/api/score.py": {"maxDuration": 30}}}
